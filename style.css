@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 512px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-wrapper {
+    height: calc(100% - 160px);
+    flex-grow: 1;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+}
+
+
+
+.sidebar {
+    width: 80px;
+    flex-shrink: 0;
+    background-color: rgb(30, 30, 30);
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+
+
+
+
+footer {
+    height: 80px;
+    background-color: rgb(54, 54, 54);
+    flex-shrink: 0;
+}
