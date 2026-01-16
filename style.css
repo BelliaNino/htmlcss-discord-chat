@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+/*body size*/
 body {
     max-width: 512px;
+    background-color: rgb(30, 30, 30);
 }
 
+/*wrapper size*/
 .wrapper {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/*chat wrapper size*/
 .chat-wrapper {
     height: calc(100% - 160px);
     flex-grow: 1;
@@ -22,7 +26,7 @@ body {
 }
 
 
-
+/*sidebar*/
 .sidebar {
     width: 80px;
     flex-shrink: 0;
@@ -30,8 +34,9 @@ body {
     padding: 1rem;
 
     img {
-        padding-bottom: 3px ;
+        padding-bottom: 3px;
         border-radius: 50%;
+        width: 100%;
     }
 
     & :first-child {
@@ -39,10 +44,51 @@ body {
     }
 }
 
+/*main specs*/
 main {
     flex-grow: 1;
     overflow-y: auto;
 }
+
+/*message*/
+.firstline {
+    color: white;
+    font-size: 150%;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*searching bar*/
+.upbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 0;
+    gap: 1rem;
+
+    button {
+        border: none;
+        background-color: rgb(59, 59, 59);
+        color: white;
+        font-size: 100%;
+        padding: 0.4rem;
+    }
+
+    & :first-child {
+        border-radius: 50%;
+        flex: 0;
+    }
+
+    & :last-child {
+        flex: 1;
+        border-radius: 30px;
+
+    }
+
+
+}
+
 
 
 
