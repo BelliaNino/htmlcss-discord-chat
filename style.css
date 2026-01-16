@@ -7,6 +7,7 @@
 /*body size*/
 body {
     max-width: 512px;
+    max-height: 100vh;
     background-color: rgb(30, 30, 30);
 }
 
@@ -43,6 +44,8 @@ body {
         border-radius: 0;
     }
 }
+
+
 
 /*main specs*/
 main {
@@ -115,6 +118,80 @@ main {
 
 }
 
+/*bonus*/
+
+.profile:hover {
+    background-color: rgba(68, 68, 68, 0.425);
+    border-radius: 15px;
+}
+
+.info:hover {
+    color: rgba(255, 255, 255, 0.783);
+}
+
+.chat {
+    position: relative;
+}
+
+
+/*online emoji*/
+.emoji {
+    position: absolute;
+    translate: 3rem 45px;
+}
+.emoji1 {
+    position: absolute;
+    translate: 3rem 118px;
+}
+.emoji2 {
+    position: absolute;
+    translate: 3rem 190px;
+}
+.emoji3 {
+    position: absolute;
+    translate: 3rem 262px;
+}
+.emoji4 {
+    position: absolute;
+    translate: 3rem 334px;
+}
+.emoji5 {
+    position: absolute;
+    translate: 3rem 406px;
+}
+.emoji6 {
+    position: absolute;
+    translate: 3rem 475px;
+}
+.emoji7 {
+    position: absolute;
+    translate: 3rem 548px;
+}
+.emoji8 {
+    position: absolute;
+    translate: 3rem 620px;
+}
+.emoji9 {
+    position: absolute;
+    translate: 3rem 692px;
+}
+.emoji10 {
+    position: absolute;
+    translate: 3rem 764px;
+}
+.emoji11 {
+    position: absolute;
+    translate: 3rem 832px;
+}
+
+
+ 
+
+
+
+
+
+
 .info {
     display: flex;
     align-items: center;
@@ -142,7 +219,7 @@ main {
 
 
 
-
+/*footer bar*/
 footer {
     height: 80px;
     background-color: rgb(54, 54, 54);
@@ -175,3 +252,4 @@ footer {
 
 
 }
+
