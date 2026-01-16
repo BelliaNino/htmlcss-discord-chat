@@ -89,6 +89,21 @@ main {
 
 }
 
+/*chat section*/
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+    img {
+        border-radius: 50%;
+        width: 12%;
+    }
+   
+
+}
+
 
 
 
