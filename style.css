@@ -7,8 +7,6 @@
 /*body size*/
 body {
     max-width: 512px;
-    max-height: 100vw;
-    background-color: rgb(30, 30, 30);
 }
 
 /*wrapper size*/
@@ -60,6 +58,18 @@ body {
         color: white;
     }
 
+
+}
+
+.sidebar i:hover {
+    background-color: rgb(93, 0, 255);
+    border-color: rgb(93, 0, 255);
+    transition: all 0.5s;
+}
+
+.sidebar img:hover {
+    width: 105%;
+    transition: all 0.5s;
 }
 
 
@@ -140,11 +150,9 @@ main {
 
 .profile:hover {
     background-color: rgba(68, 68, 68, 0.425);
-    border-radius: 15px;
-}
-
-.info:hover {
     color: rgba(255, 255, 255, 0.783);
+    border-radius: 15px;
+    transition: all 0.5s;
 }
 
 .chat {
@@ -157,55 +165,78 @@ main {
     position: absolute;
     translate: 3rem 45px;
 }
+
 .emoji1 {
     position: absolute;
     translate: 3rem 118px;
 }
+
 .emoji2 {
     position: absolute;
     translate: 3rem 190px;
 }
+
 .emoji3 {
     position: absolute;
     translate: 3rem 262px;
 }
+
 .emoji4 {
     position: absolute;
     translate: 3rem 334px;
 }
+
 .emoji5 {
     position: absolute;
     translate: 3rem 406px;
 }
+
 .emoji6 {
     position: absolute;
     translate: 3rem 475px;
 }
+
 .emoji7 {
     position: absolute;
     translate: 3rem 548px;
 }
+
 .emoji8 {
     position: absolute;
     translate: 3rem 620px;
 }
+
 .emoji9 {
     position: absolute;
     translate: 3rem 692px;
 }
+
 .emoji10 {
     position: absolute;
     translate: 3rem 764px;
 }
+
 .emoji11 {
     position: absolute;
     translate: 3rem 832px;
 }
 
+.wrapper {
+    position: relative;
+}
 
+/*long white icon next to disord icon*/
+.sidebar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 50px;
+    background-color: white;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
 
-
- 
 
 
 
@@ -272,7 +303,3 @@ footer {
     }
 
 }
-
-
-
-
