@@ -64,6 +64,7 @@ body {
 .sidebar i:hover {
     background-color: rgb(93, 0, 255);
     border-color: rgb(93, 0, 255);
+    border-radius: 15px;
     transition: all 0.5s;
 }
 
@@ -72,6 +73,17 @@ body {
     transition: all 0.5s;
 }
 
+/*long white icon next to disord icon*/
+.sidebar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 50px;
+    background-color: white;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
 
 
 /*main specs*/
@@ -100,7 +112,7 @@ main {
     button {
         border: none;
         background-color: rgb(59, 59, 59);
-        color: white;
+        color: rgba(255, 255, 255, 0.668);
         font-size: 100%;
         padding: 0.4rem;
     }
@@ -118,6 +130,19 @@ main {
 
 
 }
+
+.upbar :first-child:hover {
+    background-color: rgb(103, 103, 103);
+    transition: all 0.5s;
+    color: white;
+}
+
+.upbar :last-child:hover {
+    background-color: rgb(103, 103, 103);
+    transition: all 0.5s;
+    color: white;
+}
+
 
 /*chat section*/
 .chat {
@@ -225,17 +250,6 @@ main {
     position: relative;
 }
 
-/*long white icon next to disord icon*/
-.sidebar::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 4px;
-    height: 50px;
-    background-color: white;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-}
 
 
 
